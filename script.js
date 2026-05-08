@@ -1,6 +1,6 @@
 const CONFIG = {
   // Troque aqui se o número oficial for diferente. Formato: 55 + DDD + número, sem espaços.
-  whatsapp: '5531990905292',
+  whatsapp: '5511974149492',
   mensagem: 'Olá! Vim pelo site da Atlântico Vidros e gostaria de solicitar um orçamento.'
 };
 const servicos = [
