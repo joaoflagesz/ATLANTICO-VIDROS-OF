@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Atlântico Vidros | Vidraçaria, Esquadrias e Projetos em Vidro</title>
+  <meta name="description" content="Atlântico Vidros: vidraçaria especializada em box, espelhos, guarda-corpo, portas, janelas, pele de vidro, esquadrias de alumínio, portões e ripados." />
+  <link rel="icon" href="assets/logo-atlantico-vidros.jpeg" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar" id="topo">
+    <a class="brand" href="#topo"><img src="assets/logo-premium.png" alt="Logo Atlântico Vidros"><span>Atlântico Vidros</span></a>
+    <button class="menuBtn" aria-label="Abrir menu">☰</button>
+    <nav class="nav">
+      <a href="#catalogo">Catálogo</a><a href="#galeria">Galeria</a><a href="#videos">Vídeos</a><a href="#sobre">Sobre</a><a href="#contato" class="navCta">Orçamento</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="heroBg"><video autoplay muted loop playsinline src="assets/videos/video-01.mp4"></video><div></div></div>
+      <div class="heroContent">
+        <p class="eyebrow">Vidraçaria • Esquadrias • Alumínio • Projetos sob medida</p>
+        <h1>Soluções em vidro e alumínio com acabamento de alto padrão.</h1>
+        <p class="heroText">Box, espelhos, janelas, portas, guarda-corpos, escadas, pele de vidro, portões e ripados. Atendimento profissional para residências, comércios e obras.</p>
+        <div class="heroActions"><a class="btn primary" data-whats href="#">Solicitar orçamento</a><a class="btn secondary" href="https://instagram.com/atlanticovidros1" target="_blank" rel="noopener">Instagram @atlanticovidros1</a></div>
+        <div class="stats"><span><b>4,6★</b>Avaliação Google</span><span><b>45+</b>Avaliações</span><span><b>100%</b>sob medida</span></div>
+      </div>
+    </section>
+
+    <section class="section intro">
+      <div>
+        <p class="eyebrow blue">Atlântico Vidros</p>
+        <h2>Especialistas em projetos modernos de vidro e alumínio.</h2>
+      </div>
+      <p>
+        Trabalhamos com soluções sob medida para residências, empresas e obras,
+        oferecendo instalação profissional, acabamento premium e materiais de alta qualidade.
+        Produzimos boxes, espelhos, janelas, portas, guarda-corpo, pele de vidro,
+        esquadrias de alumínio e muito mais.
+      </p>
+    </section>
+
+    <section class="section services" id="catalogo">
+      <div class="sectionHead"><p class="eyebrow blue">Catálogo</p><h2>Produtos e serviços</h2><p>Organização completa para o cliente encontrar exatamente o que precisa.</p></div>
+      <div class="serviceGrid" id="serviceGrid"></div>
+    </section>
+
+    <section class="section featured">
+      <div class="featureCard"><img src="assets/fotos/projeto-01.jpeg" alt="Projeto em vidro Atlântico Vidros"><div><p class="eyebrow blue">Projetos sob medida</p><h2>Do orçamento à instalação com acabamento profissional.</h2><p>Trabalhamos com medidas personalizadas, orientação técnica e soluções indicadas para cada ambiente: banheiro, sala, fachada, varanda, área gourmet, loja ou obra.</p><a class="btn primary" data-whats href="#">Quero um orçamento</a></div></div>
+    </section>
+
+    <section class="section gallery" id="galeria">
+      <div class="sectionHead"><p class="eyebrow blue">Galeria real</p><h2>Fotos de projetos e referências</h2><p>Clique nas imagens para visualizar em tela cheia.</p></div>
+      <div class="galleryGrid" id="galleryGrid"></div>
+    </section>
+
+    <section class="section videoSection" id="videos">
+      <div class="sectionHead"><p class="eyebrow blue">Vídeos</p><h2>Veja detalhes dos serviços</h2><p>Vídeos reais para demonstrar acabamento, movimento das peças e qualidade final.</p></div>
+      <div class="videoGrid"><video controls playsinline preload="metadata" src="assets/videos/video-01.mp4"></video><video controls playsinline preload="metadata" src="assets/videos/video-02.mp4"></video></div>
+    </section>
+
+    <section class="section about" id="sobre">
+      <div class="aboutBox"><p class="eyebrow blue">Sobre a empresa</p><h2>Atlântico Vidros</h2><p>A Atlântico Vidros atua com soluções em vidros temperados, esquadrias de alumínio, boxes, espelhos, guarda-corpos, pele de vidro, portas, janelas e acabamentos arquitetônicos. O foco é entregar projetos bonitos, seguros e bem finalizados.</p><div class="badges"><span>Atendimento técnico</span><span>Materiais de qualidade</span><span>Medidas sob projeto</span><span>Acabamento premium</span></div></div>
+      <div class="contactCard" id="contato"><h3>Solicite seu orçamento</h3><p>Envie fotos, medidas aproximadas e o tipo de serviço desejado. A equipe retorna com orientação e proposta.</p><a class="btn primary full" data-whats href="#">Chamar no WhatsApp</a><a class="btn secondary full" href="https://instagram.com/atlanticovidros1" target="_blank" rel="noopener">Ver Instagram</a><small>Instagram oficial: @atlanticovidros1</small></div>
+    </section>
+  </main>
+
+  <a class="floatWhats" data-whats href="#" aria-label="Chamar no WhatsApp">WhatsApp</a>
+  <div class="lightbox" id="lightbox"><button aria-label="Fechar">×</button><img alt="Foto ampliada"></div>
+  <script>window.SITE_MEDIA = ['assets/fotos/projeto-01.jpeg', 'assets/fotos/projeto-02.jpeg', 'assets/fotos/projeto-03.jpeg', 'assets/fotos/projeto-04.jpeg', 'assets/fotos/projeto-05.jpeg', 'assets/fotos/projeto-06.jpeg', 'assets/fotos/projeto-07.jpeg', 'assets/fotos/projeto-08.jpeg', 'assets/fotos/projeto-09.jpeg', 'assets/fotos/projeto-10.jpeg', 'assets/fotos/projeto-11.jpeg', 'assets/fotos/projeto-12.jpeg', 'assets/fotos/projeto-13.jpeg', 'assets/fotos/projeto-14.jpeg', 'assets/fotos/projeto-15.jpeg', 'assets/fotos/projeto-16.jpeg', 'assets/fotos/projeto-17.jpeg', 'assets/fotos/projeto-18.jpeg', 'assets/fotos/projeto-19.jpeg', 'assets/fotos/projeto-20.jpeg', 'assets/fotos/projeto-21.jpeg', 'assets/fotos/projeto-22.jpeg', 'assets/fotos/projeto-23.jpeg', 'assets/fotos/projeto-24.jpeg', 'assets/fotos/projeto-25.jpeg', 'assets/fotos/projeto-26.jpeg', 'assets/fotos/projeto-27.jpeg', 'assets/fotos/projeto-28.jpeg', 'assets/fotos/projeto-29.jpeg', 'assets/fotos/projeto-30.jpeg', 'assets/fotos/projeto-31.jpeg', 'assets/fotos/projeto-32.jpeg', 'assets/fotos/projeto-33.jpeg', 'assets/fotos/projeto-34.jpeg', 'assets/fotos/projeto-35.jpeg', 'assets/fotos/projeto-36.jpeg', 'assets/fotos/projeto-37.jpeg', 'assets/fotos/projeto-38.jpeg', 'assets/fotos/projeto-39.jpeg', 'assets/fotos/projeto-40.jpeg', 'assets/fotos/projeto-41.jpeg', 'assets/fotos/projeto-42.jpeg', 'assets/fotos/projeto-43.jpeg', 'assets/fotos/projeto-44.jpeg', 'assets/fotos/projeto-45.jpeg', 'assets/fotos/projeto-46.jpeg', 'assets/fotos/projeto-47.jpeg', 'assets/fotos/projeto-48.jpeg', 'assets/fotos/projeto-49.jpeg', 'assets/fotos/projeto-50.jpeg', 'assets/fotos/projeto-51.jpeg', 'assets/fotos/projeto-52.jpeg', 'assets/fotos/projeto-53.jpeg', 'assets/fotos/projeto-54.jpeg', 'assets/fotos/projeto-55.jpeg', 'assets/fotos/projeto-56.jpeg', 'assets/fotos/projeto-57.jpeg', 'assets/fotos/projeto-58.jpeg', 'assets/fotos/projeto-59.jpeg'];</script>
+  <script src="script.js"></script>
+</body>
+</html>
